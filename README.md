@@ -9,6 +9,10 @@ jQuery-ripple can be installed through [Bower](http://bower.io/).
 
     $ bower install jquery.ripple --save
 
+Or through [npm](https://docs.npmjs.com/)
+    
+    $ npm install jquery-ripple --save
+
 ### Usage
 
 1. Include the required jquery.ripple.css in the head section of your document.
