@@ -76,6 +76,19 @@
                     .one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function() {
                         $ink.remove();
                     });
+
+              // Increase capability with Firefox
+              if ($paper.is('a')) {
+                var $link = $(`<a href="${$paper.attr('href')}" >`)
+                  .appendTo('body').end();
+                var target = $paper.attr('target')
+
+                if (target) {
+                  $link.attr('target', target);
+                }
+                $link[0].click()
+                $link.remove()
+              }
             });
 
         // Chaining
