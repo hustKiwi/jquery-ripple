@@ -1,6 +1,6 @@
 {
   "name": "jquery-ripple",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "jQuery Plugin for a ripple effect inspired by Google Material Design",
   "main": "jquery.ripple.js",
   "scripts": {
